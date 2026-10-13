@@ -6,6 +6,7 @@ Pine Script v6 indicators and strategies, backtest audits in Python, broker exec
 
 | Script | What it checks | Code |
 |---|---|---|
+| [Data Age](https://www.tradingview.com/script/txAVsq9Y-Data-Age-How-Old-Is-the-Value-request-security-Returns/) | Measures how old the value `request.security` returns is for up to three symbols, and counts the bars where it was carried forward | [request-data-age](https://github.com/guillemustafa-ux/request-data-age) |
 | [Session DST Audit](https://www.tradingview.com/script/EMa1CDGm-Session-DST-Audit-Does-a-Fixed-Offset-Session-Drift/) | Checks one session string in a DST-aware zone and a fixed offset, and counts the bars each one misses or adds | [session-dst-audit](https://github.com/guillemustafa-ux/session-dst-audit) |
 | [Intrabar Ambiguity](https://www.tradingview.com/script/QXyp6oKQ-Intrabar-Ambiguity-Which-Hit-First-Stop-or-Target/) | Finds bars where stop and target both fit in one range and settles them with lower-timeframe data | [intrabar-ambiguity](https://github.com/guillemustafa-ux/intrabar-ambiguity) |
 | [Repaint Auditor](https://www.tradingview.com/script/7USFvRmd-Repaint-Auditor-Live-Flicker-Counter-and-request-security-A-B/) | Counts intrabar repaints and ghost signals live, and A/B tests three `request.security` forms | [repaint-auditor](https://github.com/guillemustafa-ux/repaint-auditor) |
