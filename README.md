@@ -13,7 +13,7 @@ Pine Script v6 indicators and strategies, backtest audits in Python, broker exec
 | [Liquidity Sweep, MSS and FVG with Look-ahead A/B](https://www.tradingview.com/script/2pqi4yFB-Liquidity-Sweep-MSS-and-FVG-Entry-Model-with-Look-ahead-A-B/) | ICT entry model as a `strategy()`, with a built-in look-ahead demo | [ict-sweep-mss-fvg](https://github.com/guillemustafa-ux/ict-sweep-mss-fvg) |
 | [GEX Levels with OI Age Check](https://www.tradingview.com/script/uKwF557w-GEX-Levels-from-a-Level-String-with-OI-Age-Check/) | Gamma-exposure levels with a freshness verdict on the open interest | [gex-levels-proof](https://github.com/guillemustafa-ux/gex-levels-proof) |
 
-All scripts on TradingView: [CriptoMusta](https://www.tradingview.com/u/CriptoMusta/)
+All scripts on TradingView: [GuilleMustafa](https://www.tradingview.com/u/GuilleMustafa/)
 
 #### Backtests and execution
 
