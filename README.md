@@ -6,6 +6,7 @@ Pine Script v6 indicators and strategies, backtest audits in Python, broker exec
 
 | Script | What it checks | Code |
 |---|---|---|
+| [Intrabar Ambiguity](https://www.tradingview.com/script/QXyp6oKQ-Intrabar-Ambiguity-Which-Hit-First-Stop-or-Target/) | Finds bars where stop and target both fit in one range and settles them with lower-timeframe data | [intrabar-ambiguity](https://github.com/guillemustafa-ux/intrabar-ambiguity) |
 | [Repaint Auditor](https://www.tradingview.com/script/7USFvRmd-Repaint-Auditor-Live-Flicker-Counter-and-request-security-A-B/) | Counts intrabar repaints and ghost signals live, and A/B tests three `request.security` forms | [repaint-auditor](https://github.com/guillemustafa-ux/repaint-auditor) |
 | [Cost Ladder](https://www.tradingview.com/script/kQRPTxtz-Cost-Ladder-Does-a-Signal-Survive-0x-1x-and-2x-Costs/) | Re-prices the same trades at 0x, 1x and 2x costs, with a 95% CI and the break-even cost | [cost-ladder](https://github.com/guillemustafa-ux/cost-ladder) |
 | [Seasonality vs Shuffled Calendar](https://www.tradingview.com/script/5RcwXxp7-Seasonality-vs-Shuffled-Calendar-Is-the-Best-Month-Real/) | Tests the best month or weekday against a shuffled calendar | [seasonality-shuffle](https://github.com/guillemustafa-ux/seasonality-shuffle) |
