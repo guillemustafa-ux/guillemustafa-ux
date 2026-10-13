@@ -6,6 +6,7 @@ Pine Script v6 indicators and strategies, backtest audits in Python, broker exec
 
 | Script | What it checks | Code |
 |---|---|---|
+| [Session DST Audit](https://www.tradingview.com/script/EMa1CDGm-Session-DST-Audit-Does-a-Fixed-Offset-Session-Drift/) | Checks one session string in a DST-aware zone and a fixed offset, and counts the bars each one misses or adds | [session-dst-audit](https://github.com/guillemustafa-ux/session-dst-audit) |
 | [Intrabar Ambiguity](https://www.tradingview.com/script/QXyp6oKQ-Intrabar-Ambiguity-Which-Hit-First-Stop-or-Target/) | Finds bars where stop and target both fit in one range and settles them with lower-timeframe data | [intrabar-ambiguity](https://github.com/guillemustafa-ux/intrabar-ambiguity) |
 | [Repaint Auditor](https://www.tradingview.com/script/7USFvRmd-Repaint-Auditor-Live-Flicker-Counter-and-request-security-A-B/) | Counts intrabar repaints and ghost signals live, and A/B tests three `request.security` forms | [repaint-auditor](https://github.com/guillemustafa-ux/repaint-auditor) |
 | [Cost Ladder](https://www.tradingview.com/script/kQRPTxtz-Cost-Ladder-Does-a-Signal-Survive-0x-1x-and-2x-Costs/) | Re-prices the same trades at 0x, 1x and 2x costs, with a 95% CI and the break-even cost | [cost-ladder](https://github.com/guillemustafa-ux/cost-ladder) |
