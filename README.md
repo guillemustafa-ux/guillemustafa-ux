@@ -6,6 +6,7 @@ Pine Script v6 indicators and strategies, backtest audits in Python, broker exec
 
 | Script | What it checks | Code |
 |---|---|---|
+| [Fibonacci vs Random Ratios](https://www.tradingview.com/script/MV9tTaED-Fibonacci-vs-Random-Ratios-Where-Pullbacks-Actually-Stop/) | Tests whether pullbacks stop near the Fibonacci levels more often than near random ratios with the same tolerance, and how many random sets do as well | [fibonacci-vs-random](https://github.com/guillemustafa-ux/fibonacci-vs-random) |
 | [Heikin Ashi Fill Gap](https://www.tradingview.com/script/oTHxF7ou-Heikin-Ashi-Fill-Gap-What-a-Backtest-Gains-at-HA-Prices/) | Measures the gap between Heikin Ashi and real prices, and what the same signal gains when a backtest fills at HA prices | [heikin-ashi-fill-gap](https://github.com/guillemustafa-ux/heikin-ashi-fill-gap) |
 | [Data Age](https://www.tradingview.com/script/txAVsq9Y-Data-Age-How-Old-Is-the-Value-request-security-Returns/) | Measures how old the value `request.security` returns is for up to three symbols, and counts the bars where it was carried forward | [request-data-age](https://github.com/guillemustafa-ux/request-data-age) |
 | [Session DST Audit](https://www.tradingview.com/script/EMa1CDGm-Session-DST-Audit-Does-a-Fixed-Offset-Session-Drift/) | Checks one session string in a DST-aware zone and a fixed offset, and counts the bars each one misses or adds | [session-dst-audit](https://github.com/guillemustafa-ux/session-dst-audit) |
